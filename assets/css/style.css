@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@font-face {
+	font-family: SFProText-bold;
+	src: url("../fonts/SF-Pro-Text-Bold.woff");
+}
+
+@font-face {
+	font-family: SFProText;
+  src: url("../fonts/SF-Pro-Text-Regular.otf");
+}
+
+body {
+	padding: 0px;
+}
+
+.body {
+	padding: 0px;
+}
+
+.landing {
+	position: relative;
+	max-width: 100%;
+	height: 685px;
+	left: 0px;
+	top: 0px;
+	padding: 47px 127px;
+	background: url(../image/background-img.png);
+}
+
+.logo {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: normal;
+	margin: auto;
+	color: #FFFFFF;
+}
+
+.side-bar {
+	left: 0px;
+	top: 0px;
+	width: 460px;
+	position: fixed;
+	height: 100%;
+	background: #323234;
+}
+
+.side-bar h2 {
+	font-family: 'Lato', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: normal;
+	text-align: center;
+	text-transform: capitalize;
+	margin-bottom: 0px;
+	color: #FFFFFF;
+}
+
+.side-bar h3 {
+	font-family: 'Crimson Text', serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	letter-spacing: 0.2em;
+	text-transform: capitalize;
+	margin-top: 2px;
+	color: #FFFFFF;
+}
+
+.avatar-img {
+	margin: 113px 128px 0px 128px;
+	width: 205px;
+	height: 205px;
+}
+
+nav {
+	vertical-align: middle;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  text-align: center;j
+}
+
+li {
+	font-family: SFProText;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: normal;
+	text-align: center;
+	display: inline-block;
+}
+
+#spacing {
+	margin-left: 17px;
+}
+
+li:hover {
+	text-decoration: underline;
+}
+
+a:link, a:visited {
+	color: #ffffff;
+}
+
+hr {
+	width: 173px;
+	border: 1px solid #ffffff;
+	border-radius: 55px;
+}
+
+.icon-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 28px;
+}
+
+.txt-body {
+	margin-left:460px;
+	padding:162px 74px 162px 85px ;
+	height:100%;
+}
+
+.txt-body h2 {
+	width: 600px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 64px;
+	line-height: 86px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+.txt-body p {
+	font-family: SFProText;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 37px;
+	color: #000000;
+}
